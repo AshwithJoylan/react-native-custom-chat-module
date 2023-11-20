@@ -27,6 +27,7 @@ const ListComponent: FC<IListComponentProps> = (props) => {
 
   return (
     <FlatList
+      keyboardDismissMode="on-drag"
       onContentSizeChange={onContentSizeChange}
       ref={ref}
       ItemSeparatorComponent={seperator}

@@ -38,8 +38,6 @@ export default function App() {
     },
   ]);
 
-  React.useEffect(() => {}, []);
-
   return (
     <SafeAreaView style={styles.container}>
       <ChatList
@@ -47,7 +45,9 @@ export default function App() {
         headerTitleStyle={{ color: '#fff' }}
         headerStyle={{ backgroundColor: '#1A1F16' }}
         title="Message Title"
-        onBackPress={() => {}}
+        onBackPress={() => {
+          console.log('on back pressed');
+        }}
         inputPlaceholderTextColor="#ccc"
         chatInputStyle={{ color: '#fff' }}
         onSendMessage={(newMessage) => {
