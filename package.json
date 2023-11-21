@@ -79,7 +79,10 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-get-random-values": "^1.10.0",
+    "react-native-vector-icons": "^10.0.2",
+    "uuid": "^9.0.1"
   },
   "workspaces": [
     "example"
@@ -155,10 +158,5 @@
       "module",
       "typescript"
     ]
-  },
-  "dependencies": {
-    "react-native-get-random-values": "^1.10.0",
-    "react-native-vector-icons": "^10.0.2",
-    "uuid": "^9.0.1"
   }
 }

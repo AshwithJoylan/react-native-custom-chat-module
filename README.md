@@ -22,6 +22,24 @@ Add types for react-native-vector-icons
 yarn add -D @types/react-native-vector-icons
 ```
 
+## Setup IOS
+
+make sure you have installe dth epods by running the following command
+
+```sh
+cd ios && pod install
+```
+
+Also make sure you have imported ``react-native-get-random-value`` on the begeniing of App.js or App.tsx
+
+```ts
+// App.tsx
+import * as React from 'react';
+import 'react-native-get-random-values';
+
+// rest of the component
+```
+
 ## Usage
 
 ```js
